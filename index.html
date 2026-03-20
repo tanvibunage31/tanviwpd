@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
     <title>WPD PR24</title>
 
@@ -112,6 +112,43 @@
             padding: 20px;
             margin-top: 30px;
         }
+        /* Centered box for feedback form */
+        .feedback-box {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px 30px;
+            border: 2px solid #0b4dbb;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background: #f9f9f9;
+        }
+
+            .feedback-box h3 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .feedback-box input,
+            .feedback-box textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+            }
+
+            .feedback-box button {
+                width: 100%;
+                padding: 10px;
+                background: dodgerblue;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .feedback-box button:hover {
+                    background: #0b4dbb;
+                }
+
     </style>
 </head>
 <head>
@@ -295,8 +332,27 @@
 
     <!-- Footer -->
 
+    
+    </footer>
+    <!-- ✅ FEEDBACK FORM AT THE VERY END -->
+    <div class="feedback-box">
+        <h3>Feedback Form</h3>
+
+        <form action="https://script.google.com/macros/s/AKfycbyjY8mI7rUYxSqcJi31cszS1S1ZdtSy5g8QKayUM1kFZ71IvqB8JKq0yCfy6Z17H1wZPg/exec" method="post">
+
+            <input type="text" name="name" placeholder="Enter your name" required>
+
+            <input type="email" name="email" placeholder="Enter your email" required>
+
+            <input type="date" name="date" required>
+
+            <textarea name="message" placeholder="Enter your feedback" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     <footer>
-        <p>© 2026 MSBTE WPD Practical Website</p>
+        <p>&copy; 2026 MSBTE WPD Practical Website</p>
     </footer>
     <br />
     <h2>Contact Information</h2>
@@ -308,5 +364,7 @@
         Email:2025icttanvi@gmail.com<br />
         Phone: 8624925547
     </address>
+
+
 </body>
 </html>
