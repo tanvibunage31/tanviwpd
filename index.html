@@ -1,0 +1,312 @@
+﻿<html>
+<head>
+    <title>WPD PR24</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Bar */
+
+        nav {
+            background: hotpink;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            nav h2 {
+                color: white;
+            }
+
+            nav ul {
+                list-style: none;
+                display: flex;
+            }
+
+                nav ul li {
+                    margin-left: 20px;
+                }
+
+                    nav ul li a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                        transition: 0.3s;
+                    }
+
+                        nav ul li a:hover {
+                            color: dodgerblue;
+                        }
+
+        /* Header Section */
+
+        header {
+            background: linear-gradient(to right,#1a73e8,#00c6ff);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+            header h1 {
+                font-size: 60px;
+            }
+
+        /* Practical Section */
+
+        .container {
+            padding: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: lightpink;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+            .card:hover {
+                transform: translateY(-8px);
+            }
+
+            .card h3 {
+                margin-bottom: 10px;
+            }
+
+        .btn {
+            display: inline-block;
+            background-color: crimson;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+            .btn:hover {
+                background: #0b4dbb;
+            }
+
+        /* Footer */
+
+        footer {
+            background: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<head>
+    <title>MSBTE WPD Practicals</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>MSBTE WPD Practicals</h1>
+        <p>Interactive Practical Website</p>
+    </header>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <h2>WPD Practicals</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Home</a></li>
+            <li><a href="#Practicals">Practicals</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/" target="_blank">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Practicals -->
+
+    <div class="container">
+
+        <h2 style="margin-bottom:20px;">List of Practicals</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Practical 1</h3>
+                <p>Basic HTML Page</p>
+                <a class="btn" href="PR1.html" target="blank">View</a>
+                <a class="btn" href="PR1.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 2</h3>
+                <p>Text Formatting Tags</p>
+                <a class="btn" href="PR2.html" target="blank">View</a>
+                <a class="btn" href="PR2.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 3</h3>
+                <p>HTML Lists</p>
+                <a class="btn" href="PR3.html" target="blank">View</a>
+                <a class="btn" href="PR3.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 4</h3>
+                <p>Hyperlinks</p>
+                <a class="btn" href="PR4.html" target="blank">View</a>
+                <a class="btn" href="PR4.png" target="blank">output</a>
+            </div>
+
+
+            <div class="card">
+                <h3>Practical 5</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR5.html" target="blank">View</a>
+                <a class="btn" href="PR5.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 6</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR6.html" target="blank">View</a>
+                <a class="btn" href="PR6.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 7</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR7.html" target="blank">View</a>
+                <a class="btn" href="PR7.html" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 8</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR8.html" target="blank">View</a>
+                <a class="btn" href="PR8.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 9</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR9.html" target="blank">View</a>
+                <a class="btn" href="PR9.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 10</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR10.html" target="blank">View</a>
+                <a class="btn" href="PR10.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 11</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR11.html" target="blank">View</a>
+                <a class="btn" href="PR11.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 12</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR12.html" target="blank">View</a>
+                <a class="btn" href="PR12.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 13</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR13.html" target="blank">View</a>
+                <a class="btn" href="PR13.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 14</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR14.html" target="blank">View</a>
+                <a class="btn" href="PR14.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 15</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR15.html" target="blank">View</a>
+                <a class="btn" href="PR15.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 16</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR16.html" target="blank">View</a>
+                <a class="btn" href="PR16.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 17</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR17.html" target="blank">View</a>
+                <a class="btn" href="PR17.jpg" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 18</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR18.html" target="blank">View</a>
+                <a class="btn" href="PR18.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 19</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR19.html" target="blank">View</a>
+                <a class="btn" href="PR19.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 20</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR20.html" target="blank">View</a>
+                <a class="btn" href="PR20.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 21</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR21.html" target="blank">View</a>
+                <a class="btn" href="PR21.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 22</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR22.html" target="blank">View</a>
+                <a class="btn" href="PR22.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Practical 23</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="PR23.html" target="blank">View</a>
+                <a class="btn" href="PR23.png" target="blank">output</a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <p>© 2026 MSBTE WPD Practical Website</p>
+    </footer>
+    <br />
+    <h2>Contact Information</h2>
+    <p><b><u>Name</u>:</b> <i>Tanvi Bunage</i></p>
+    <address>
+        MET's Institute of Technology Polytechnic<br />
+        Bhujbal Knowledge City<br />
+        Department of Information Technology<br />
+        Email:2025icttanvi@gmail.com<br />
+        Phone: 8624925547
+    </address>
+</body>
+</html>
